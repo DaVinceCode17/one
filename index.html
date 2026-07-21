@@ -11,11 +11,25 @@
             height: 100vh;
             background-color: #ebebeb;
             font-family: 'Courier New', Courier, monospace;
+            position: relative;
+        }
+        .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: lightgreen;
+            border: none;
+            border-radius: 30px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            box-shadow: 0px 0px 10px #888888;
         }
         img {
             width: 90%;
             height: 70%;
             object-fit: contain;
+            border-radius: 30px;
         }
         h1 {
             font-size: 2.5em;
@@ -32,9 +46,11 @@
     </style>
 </head>
 <body>
+    <button class="close-btn" onclick="window.close()">Exit</button>
+    
     <h1>Happy 33rd Birthday teh!</h1>
     <h4>Enjoy your special day!</h4>
-    <h4 style="font-size: 1.2em; color: #777;">Wishing you good health, happiness, and more blessings and birthdays to come! 🥂</h4>
+    <h4 style="font-size: 1.2em; color: #777;">Wishing you good health, happiness, more blessings, and more birthdays to come! 🥂</h4>
     <br>
     <p>🎈🎂🎉</p>
     <img src="hbd.jpg" alt="Happy Birthday">
