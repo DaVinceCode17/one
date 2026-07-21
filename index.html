@@ -13,23 +13,11 @@
             font-family: 'Courier New', Courier, monospace;
             position: relative;
         }
-        .close-btn {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background-color: lightgreen;
-            border: none;
-            border-radius: 30px;
-            padding: 15px 30px;
-            font-size: 1.2em;
-            cursor: pointer;
-            box-shadow: 0px 0px 10px #888888;
-        }
         img {
             width: 90%;
             height: 70%;
             object-fit: contain;
-            box-shadow: 0px 0px 50px rgba(255, 215, 0, 0.8);
+            margin-top: -30px;
         }
         h1 {
             font-size: 3.75em;
@@ -44,16 +32,17 @@
             text-align: center;
         }
         .bottom-btn {
-            background-color: lightgreen;
+            background-color: gray;
             border: none;
             border-radius: 30px;
             padding: 20px 60px;
             font-size: 2em;
             cursor: pointer;
             box-shadow: 0px 0px 10px #888888;
-            margin-top: 20px;
+            margin-top: -20px;
             width: 80%;
             max-width: 400px;
+            color: white;
         }
         .spacer {
             height: 20px;
@@ -61,8 +50,6 @@
     </style>
 </head>
 <body>
-    <button class="close-btn" onclick="window.close()">✕ Close</button>
-    
     <h1>🎈 Happy 33rd Birthday teh!</h1>
     <p>Enjoy your special day!</p>
     <p style="font-size: 1.8em; color: #777;">Wishing you good health, happiness, more blessings, and more birthdays to come!</p>
@@ -72,11 +59,9 @@
     <p>🎈🎂🎉</p>
     
     <div class="spacer"></div>
-    <div class="spacer"></div>
     
     <img src="hbd.jpg" alt="Happy Birthday">
     
-    <div class="spacer"></div>
     <div class="spacer"></div>
     
     <button class="bottom-btn" onclick="window.close()">Close</button>
